@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AlejandroCV</title>
+</head>
+<style>
+    h1{
+      color: blue;
+      font-size: 90px;
+      border: 3px dashed;
+      padding: 50px;
+      font-family: sans-serif;
+      background: yellow;
+    }
+    li{
+                font-family: sans-serif;
+                font-size: 19px;
+            
+            }
+            h2{
+                font-family: sans-serif;
+                color: yellow;
+            }
+            nav {
+                color: yellow;
+                background: red;
+                border: 3px dashed; 
+                padding: 10px;    
+
+            }
+            nav a {
+                color: yellow;
+                text-decoration: none; 
+
+            }
+            main {
+                font-size: 19px;
+            }
+
+
+            p{
+                font-family: sans-serif;  
+                font-size: 19px;
+            }
+            .clasegeneral {
+                background: blue;
+                color: white; 
+                padding: 10px;     
+                border: 3px dashed yellow;   
+            }
+            .intro {
+                background: orange;
+                padding: 10px;
+                border: 3px dashed yellow;
+            }
+            .intro h2 {
+                color: red;
+            }
+
+            section {
+                font-size: 19px; 
+            }
+            .adorno {
+                background: blue;
+            }
+            .extras {
+                border: 3px dashed yellow;
+            }
+            @media (min-width: 320px){
+                p{
+                    font-size: 34px;
+                }
+                .clasegeneral {
+                    padding: 40px;                
+                }
+                h1 {
+                 font-size: 34px;   
+                }
+                .clase1 p {
+                font-size: 14px;
+                color: red;
+                }
+                nav ol li a {
+                font-size: 21px;    
+                }
+                .extras {
+                    background: blue;
+                    color: white;
+                    padding: 40px;     
+                }
+                .adorno p{ 
+                    font-size: 14px;
+                    color: white;
+                    padding: 3px;
+                }
+                .intro {
+                    padding: 40px;
+                }
+                .intro p {
+                    font-size: 29px;
+                }
+            @media (min-width: 768px){
+                p{
+                    font-size: 19px;
+                }
+                .clasegeneral {
+                    padding: 11px;    
+                    display: flex;
+                justify-content: flex-start;
+                text-justify:distribute;                 
+                }
+                .extras{
+                    padding: 11px;
+                }
+                h1 {
+                 font-size: 90px;
+                }
+                .clase1 p {
+                font-size: 30px;
+                color: red;
+            }
+            nav ol li a {
+                font-size: 19px;   
+                }  
+            .intro{
+                padding: 10px;
+            }    
+            .intro p {
+                font-size: 24px;
+            }
+            @media (min-width: 360px){
+               }
+                } 
+            }                        
+</style>
+<body>
+    <header>
+        <div>
+    <h1>Alejandro Chávez Robles Currículum Vítae</h1>
+        </div>
+    <div class="clase1">    
+    <section>
+        <p>O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O</p>
+    </section>    
+    </div>
+    <nav>
+        <ol>
+            <li><a href="#seccion1">Presentación</a> </li> 
+            <li><a href="#seccion2">Educación</a></li>
+            <li><a href="#seccion3">Experiencia Laboral</a></li>
+            <li><a href="#seccion5">Congresos y premios</a></li>
+            <li><a href="#seccion6">Habilidades</a></li>
+        </ol>
+    </nav>
+    </header>
+    </div>
+    <div class="intro">
+        <main>
+            <article id="seccion1">
+             <h2>Presentación</h2>       
+            </article>
+            <p>Diseñador integral, consciente de la importancia de la experiencia del usuario, para la generación de
+               productos o servicios funcionales con un toque creativo.</p>
+        </main>
+    </div>      
+    <div class="clasegeneral"> 
+        <section id="seccion2">
+        <article>
+        <h2>Educación</h2>
+             <ul>
+                 <li>Técnico en Diseño Gráfico Digital. Cecyt 2 del IPN (2011- 2014).</li>
+                 <li>Licenciado en Diseño. Escuela de Diseño del INBA (2014-2018).</li>
+                 <li>Design Thinking. Lic. Edna Patricia Quezada Bolaños.</li> 
+                 <li>El código de la arquitectura religiosa y civil. Parroquia San Agustín Polanco.</li>
+                </ul>
+        </article>
+    </section> <section id="seccion3">
+        <h2>Experiencia Laboral</h2>
+             <ul>
+                 <li>Diseñador gráfico para el proyecto “nochebús” en el Laboratorio Para la Ciudad (2018).</li>
+                 <li>Maestro de Dibujo y Fotografía en el Faro Reforma Social (2019).</li>
+             </ul>  
+        </section>   
+    </div>
+    <div class="adorno">    
+            <section>
+                <p>O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O</p>
+            </section>    
+            </div>
+    <div class="extras">
+    <section id="seccion5">
+        <article>
+        <h2>Congresos y premios</h2>    
+            <ul>
+                 <li>2do lugar en concurso de cartel “Deporte y educación” del I.P.N (2013).</li>
+                 <li>Ponente en Coloquio Internacional “Poder Hacer” Laboratorio Arte Alameda (2016). Colaboración con Javier
+            García Zamudio.</li>
+                  <li>Ponente en Coloquio Internacional “Las Edades del Libro”. UNAM (2017). Colaboración con Javier García Zamudio.</li>
+                  <li>Ponente en Coloquio Internacional de “Cultura Visual” Roma, Italia. Pontificia Università della Santa Croce (2018).</li>
+                  <li>Ponente en Coloquio Internacional de “Conocimiento, Cultura y Cambio en Organizaciones”. Vancouver, Canadá.
+            Universidad de Columbia Británica (2019).</li>
+            </ul>
+        </article>
+    </section>
+    <section id="seccion6">
+        <article>
+        <h2>Habilidades</h2>
+            <ul>
+                 <li>Dominio del inglés (90%).</li>
+                 <li>Excelente ortografía y redacción.</li>
+                 <li>Conocimientos de historia universal y del arte. Principalmente el posmodernismo.</li>
+                 <li>Manejo de Illustrator, Photoshop, InDesign, Animate, After Effects y 3ds Max.</li>
+                 <li>Diseño de empaque (plantillas y armado de cajas).</li>
+                 <li>Buena comunicación en trabajos por equipo.</li>
+                 <li>Conocimiento en interfaces interactivas.</li>
+            </ul>
+        </article>
+    </section>
+    </div>
+</body>
+</html>
